@@ -1,0 +1,273 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.3.2/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_home */
+#CRUNCHBASE_companyInfo_mobilebutton_home {
+
+}
+.ui-btn.CRUNCHBASE_companyInfo_mobilebutton_home {
+
+}
+/* mobilebutton_back */
+#CRUNCHBASE_companyInfo_mobilebutton_back {
+
+}
+.ui-btn.CRUNCHBASE_companyInfo_mobilebutton_back {
+
+}
+/* mobilecontainer */
+.ui-content.CRUNCHBASE_companyInfo_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilegrid_nameAndImage */
+.CRUNCHBASE_companyInfo_mobilegrid_nameAndImage {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.CRUNCHBASE_companyInfo_mobilegrid_nameAndImage > tr > td {
+	vertical-align: top;
+}
+.CRUNCHBASE_companyInfo_mobilegrid_nameAndImage_row_0, .CRUNCHBASE_companyInfo_mobilegrid_nameAndImage_row_0 > td {
+	height: 30px
+}
+/* mobilegridcell_name */
+.CRUNCHBASE_companyInfo_mobilegridcell_name {
+	height:30px !important;
+	width:125px;
+	padding: 2px 2px 2px 2px;
+}
+.CRUNCHBASE_companyInfo_mobilegridcell_name > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelink_companyName */
+.CRUNCHBASE_companyInfo_mobilelink_companyName {
+	margin: 4px 4px 4px 0px;
+	display: block;
+	vertical-align: middle;
+	padding: 2px;
+	cursor: pointer;
+}
+.CRUNCHBASE_companyInfo_mobilelink_companyName_link_wrapper > .CRUNCHBASE_companyInfo_mobilelink_companyName,
+.CRUNCHBASE_companyInfo_mobilelink_companyName_link_wrapper > .CRUNCHBASE_companyInfo_mobilelink_companyName:hover,
+.CRUNCHBASE_companyInfo_mobilelink_companyName_link_wrapper > .CRUNCHBASE_companyInfo_mobilelink_companyName:active,
+.CRUNCHBASE_companyInfo_mobilelink_companyName_link_wrapper > .CRUNCHBASE_companyInfo_mobilelink_companyName:visited {
+	font-weight: normal; font-style: italic; text-align: right; font-size: 20px;
+}
+/* mobilegridcell_image */
+.CRUNCHBASE_companyInfo_mobilegridcell_image {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.CRUNCHBASE_companyInfo_mobilegridcell_image > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobileimage_company */
+.CRUNCHBASE_companyInfo_mobileimage_company {
+	margin: 4px 0px 4px 5px;
+	width: 120px; height: 100px;
+	display: block;
+}
+/* mobilelabel_category */
+.CRUNCHBASE_companyInfo_mobilelabel_category {
+	font-weight: normal;
+	margin: 4px 8px 4px 8px;
+	word-wrap: break-word;
+}
+/* mobilelabel_descriptionCompany */
+.CRUNCHBASE_companyInfo_mobilelabel_descriptionCompany {
+	font-weight: normal;
+	margin: 4px 8px 8px 8px;
+	word-wrap: break-word;
+}
+/* mobilegroupedbuttons_companyInfo */
+.ui-controlgroup.CRUNCHBASE_companyInfo_mobilegroupedbuttons_companyInfo {
+	margin: 10px 5px 15px 5px;
+}
+.ui-controlgroup.CRUNCHBASE_companyInfo_mobilegroupedbuttons_companyInfo .ui-btn {
+	margin: 0 -1px 0 0;
+}
+/* mobilebutton_Overview */
+#CRUNCHBASE_companyInfo_mobilebutton_Overview {
+
+}
+.ui-btn.CRUNCHBASE_companyInfo_mobilebutton_Overview {
+
+}
+/* mobilebutton_Offices */
+#CRUNCHBASE_companyInfo_mobilebutton_Offices {
+
+}
+.ui-btn.CRUNCHBASE_companyInfo_mobilebutton_Offices {
+
+}
+/* mobilebutton_People */
+#CRUNCHBASE_companyInfo_mobilebutton_People {
+
+}
+.ui-btn.CRUNCHBASE_companyInfo_mobilebutton_People {
+
+}
+/* mobilebutton_Products */
+#CRUNCHBASE_companyInfo_mobilebutton_Products {
+
+}
+.ui-btn.CRUNCHBASE_companyInfo_mobilebutton_Products {
+
+}
+/* mobilebutton_Competitors */
+#CRUNCHBASE_companyInfo_mobilebutton_Competitors {
+
+}
+.ui-btn.CRUNCHBASE_companyInfo_mobilebutton_Competitors {
+
+}
+/* mobilebutton_Milestones */
+#CRUNCHBASE_companyInfo_mobilebutton_Milestones {
+
+}
+.ui-btn.CRUNCHBASE_companyInfo_mobilebutton_Milestones {
+
+}
+/* mobilelabel_overviewText */
+.CRUNCHBASE_companyInfo_mobilelabel_overviewText {
+	font-weight: normal; text-align: center; font-size: 20px;
+	margin: 14px 0px 14px 0px;
+	word-wrap: break-word;
+}
+/* mobilelabel_noInformationOverview */
+.CRUNCHBASE_companyInfo_mobilelabel_noInformationOverview {
+	font-weight: normal; font-style: italic;
+	margin: 4px 0px 4px 0px;
+	display: none;
+	word-wrap: break-word;
+}
+/* mobilelabel_foundedYear */
+.CRUNCHBASE_companyInfo_mobilelabel_foundedYear {
+	font-weight: normal;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilelabel_foundedMonth */
+.CRUNCHBASE_companyInfo_mobilelabel_foundedMonth {
+	font-weight: normal;
+	margin: 4px 0px 4px 0px;
+	display: none;
+	word-wrap: break-word;
+}
+/* mobilelabel_foundedDay */
+.CRUNCHBASE_companyInfo_mobilelabel_foundedDay {
+	font-weight: normal;
+	margin: 4px 0px 4px 0px;
+	display: none;
+	word-wrap: break-word;
+}
+/* mobilelabel_deadpooledCompanyYear */
+.CRUNCHBASE_companyInfo_mobilelabel_deadpooledCompanyYear {
+	font-weight: normal;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilelabel_deadpooledCompanyDay */
+.CRUNCHBASE_companyInfo_mobilelabel_deadpooledCompanyDay {
+	font-weight: normal;
+	margin: 4px 0px 4px 0px;
+	display: none;
+	word-wrap: break-word;
+}
+/* mobilelabel_deadpooledCompanyMonth */
+.CRUNCHBASE_companyInfo_mobilelabel_deadpooledCompanyMonth {
+	font-weight: normal;
+	margin: 4px 0px 4px 0px;
+	display: none;
+	word-wrap: break-word;
+}
+/* mobilelabel_numberOfEmployees */
+.CRUNCHBASE_companyInfo_mobilelabel_numberOfEmployees {
+	font-weight: normal;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilelabel_overview */
+.CRUNCHBASE_companyInfo_mobilelabel_overview {
+	font-weight: normal;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilelabel_contactsText */
+.CRUNCHBASE_companyInfo_mobilelabel_contactsText {
+	font-weight: normal; text-align: center; font-size: 20px;
+	margin: 14px 0px 14px 0px;
+	word-wrap: break-word;
+}
+/* mobilelabel_noInformationContacts */
+.CRUNCHBASE_companyInfo_mobilelabel_noInformationContacts {
+	font-weight: normal; font-style: italic;
+	margin: 4px 0px 4px 0px;
+	display: none;
+	word-wrap: break-word;
+}
+/* mobilelabel_phoneNumber */
+.CRUNCHBASE_companyInfo_mobilelabel_phoneNumber {
+	font-weight: normal;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilelabel_email */
+.CRUNCHBASE_companyInfo_mobilelabel_email {
+	font-weight: normal;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilelink_blog */
+.CRUNCHBASE_companyInfo_mobilelink_blog {
+	margin: 4px 0px 4px 0px;
+	display: block;
+	vertical-align: middle;
+	padding: 2px;
+	cursor: pointer;
+}
+.CRUNCHBASE_companyInfo_mobilelink_blog_link_wrapper > .CRUNCHBASE_companyInfo_mobilelink_blog,
+.CRUNCHBASE_companyInfo_mobilelink_blog_link_wrapper > .CRUNCHBASE_companyInfo_mobilelink_blog:hover,
+.CRUNCHBASE_companyInfo_mobilelink_blog_link_wrapper > .CRUNCHBASE_companyInfo_mobilelink_blog:active,
+.CRUNCHBASE_companyInfo_mobilelink_blog_link_wrapper > .CRUNCHBASE_companyInfo_mobilelink_blog:visited {
+	font-weight: normal; font-style: italic; text-align: left;
+}
+/* mobilelink_twitter */
+.CRUNCHBASE_companyInfo_mobilelink_twitter {
+	margin: 4px 0px 4px 0px;
+	display: block;
+	vertical-align: middle;
+	padding: 2px;
+	cursor: pointer;
+}
+.CRUNCHBASE_companyInfo_mobilelink_twitter_link_wrapper > .CRUNCHBASE_companyInfo_mobilelink_twitter,
+.CRUNCHBASE_companyInfo_mobilelink_twitter_link_wrapper > .CRUNCHBASE_companyInfo_mobilelink_twitter:hover,
+.CRUNCHBASE_companyInfo_mobilelink_twitter_link_wrapper > .CRUNCHBASE_companyInfo_mobilelink_twitter:active,
+.CRUNCHBASE_companyInfo_mobilelink_twitter_link_wrapper > .CRUNCHBASE_companyInfo_mobilelink_twitter:visited {
+	font-weight: normal; font-style: italic; text-align: left;
+}
+/* mobilelabel_loadingText */
+.CRUNCHBASE_companyInfo_mobilelabel_loadingText {
+	font-weight: normal; text-align: center;
+	margin: 120px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilebutton_retry */
+#CRUNCHBASE_companyInfo_mobilebutton_retry {
+
+}
+.ui-btn.CRUNCHBASE_companyInfo_mobilebutton_retry {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilefooter */
+.CRUNCHBASE_companyInfo_mobilefooter {
+	min-height:38px;
+}

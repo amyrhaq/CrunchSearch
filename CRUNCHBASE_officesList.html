@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            CRUNCHBASE_officesList
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/ios7/ios7.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.3.2/jquery.mobile.structure-1.3.2.css"
+        rel="stylesheet" />
+        <link type="text/css" rel="stylesheet" href="files/views/assets/css/CRUNCHBASE_custom.css"
+        />
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-1.8.2.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.3.2/jquery.mobile-1.3.2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jsonpath.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery-ui-map/jquery.ui.map.full.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/CRUNCHBASE_Helper.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/CRUNCHBASE_Pages.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                if (navigator.userAgent.match(/iP/i))
+        {
+            $(window).bind('orientationchange', function(event)
+            {
+                $('meta[name="viewport"]').attr('content', 'initial-scale=1.0,maximum-scale=1.0, ' + ((window.orientation == 90 || window.orientation == -90 || window.orientation == 270) ? "height=device-width,width=device-height" : "height=device-height,width=device-width"));
+            }).trigger('orientationchange');
+        }
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="CRUNCHBASE_officesList" id="CRUNCHBASE_officesList"
+        class="type-interior" data-theme="a" data-add-back-btn="false" data-back-btn-text="Back">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-theme="a" name="mobileheader"
+            id="CRUNCHBASE_officesList_mobileheader" class=' CRUNCHBASE_officesList_mobileheader '>
+                <h1 dsid="mobileheader">
+                    Company
+                </h1>
+                <!-- mobilebutton_home -->
+                <a data-role="button" name="mobilebutton_home" dsid="mobilebutton_home" class='ui-btn-right  homeButton CRUNCHBASE_officesList_mobilebutton_home'
+                id="CRUNCHBASE_officesList_mobilebutton_home" data-corners="true" data-icon="home"
+                data-iconpos="left" x-apple-data-detectors="false" data-inline='true' data-mini='true'
+                data-theme="a" tabindex="24">
+                Home
+                </a>
+                <!-- mobilebutton_back -->
+                <a data-role="button" name="mobilebutton_back" dsid="mobilebutton_back" class='ui-btn-left  backButton CRUNCHBASE_officesList_mobilebutton_back'
+                id="CRUNCHBASE_officesList_mobilebutton_back" data-corners="true" data-icon="back"
+                data-iconpos="left" x-apple-data-detectors="false" data-inline='true' data-mini='true'
+                data-theme="a" tabindex="25">
+                Back
+                </a>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="CRUNCHBASE_officesList_mobilecontainer" name="mobilecontainer"
+            class=" CRUNCHBASE_officesList_mobilecontainer" dsid="mobilecontainer" data-theme="a">
+                <link href="CRUNCHBASE_officesList.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="CRUNCHBASE_officesList.js">
+                </script>
+                <!-- mobilegrid_nameAndImage -->
+                <div class="CRUNCHBASE_officesList_mobilegrid_nameAndImage_wrapper">
+                    <table id="CRUNCHBASE_officesList_mobilegrid_nameAndImage" class=" CRUNCHBASE_officesList_mobilegrid_nameAndImage"
+                    dsid="mobilegrid_nameAndImage" name="mobilegrid_nameAndImage" cellpadding=0 cellspacing=0>
+                        <col style="width:129px;" />
+                        <col style="width:auto;" />
+                        <tr class="CRUNCHBASE_officesList_mobilegrid_nameAndImage_row_0">
+                            <!-- mobilegridcell_name -->
+                            <td id="CRUNCHBASE_officesList_mobilegridcell_name" name="mobilegridcell_name" class="CRUNCHBASE_officesList_mobilegridcell_name"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelink_companyName -->
+                                    <div class="CRUNCHBASE_officesList_mobilelink_companyName_link_wrapper">
+                                        <a id="CRUNCHBASE_officesList_mobilelink_companyName" href="http://appery.io" name="mobilelink_companyName"
+                                        dsid="mobilelink_companyName" data-role="appery_link" target="_blank" class=' CRUNCHBASE_officesList_mobilelink_companyName '>
+                                        </a>
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_image -->
+                            <td id="CRUNCHBASE_officesList_mobilegridcell_image" name="mobilegridcell_image"
+                            class="CRUNCHBASE_officesList_mobilegridcell_image" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobileimage_company -->
+                                    <img class=" CRUNCHBASE_officesList_mobileimage_company" src="files/resources/image/no-image.jpg"
+                                    id="CRUNCHBASE_officesList_mobileimage_company" dsid="mobileimage_company" name="mobileimage_company"
+                                    />
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- mobilelabel_category -->
+                <div name="mobilelabel_category" id="CRUNCHBASE_officesList_mobilelabel_category"
+                dsid="mobilelabel_category" data-role="appery_label" class=' CRUNCHBASE_officesList_mobilelabel_category '>
+                </div>
+                <!-- mobilelabel_descriptionCompany -->
+                <div name="mobilelabel_descriptionCompany" id="CRUNCHBASE_officesList_mobilelabel_descriptionCompany"
+                dsid="mobilelabel_descriptionCompany" data-role="appery_label" class=' CRUNCHBASE_officesList_mobilelabel_descriptionCompany '>
+                </div>
+                <!-- mobilegroupedbuttons_companyInfo -->
+                <div data-role="controlgroup" name="mobilegroupedbuttons_companyInfo" id="CRUNCHBASE_officesList_mobilegroupedbuttons_companyInfo"
+                dsid="mobilegroupedbuttons_companyInfo" class="CRUNCHBASE_officesList_mobilegroupedbuttons_companyInfo">
+                    <!-- mobilebutton_Overview -->
+                    <a data-role="button" name="mobilebutton_Overview" dsid="mobilebutton_Overview"
+                    class=' enabledButton CRUNCHBASE_officesList_mobilebutton_Overview' id="CRUNCHBASE_officesList_mobilebutton_Overview"
+                    data-corners="true" x-apple-data-detectors="false" data-theme="a" reRender='mobilegroupedbuttons_companyInfo'>
+                    Overview
+                    </a>
+                    <!-- mobilebutton_Offices -->
+                    <a data-role="button" name="mobilebutton_Offices" dsid="mobilebutton_Offices" class=' ui-disabled CRUNCHBASE_officesList_mobilebutton_Offices'
+                    id="CRUNCHBASE_officesList_mobilebutton_Offices" data-corners="true" x-apple-data-detectors="false"
+                    data-theme="a" reRender='mobilegroupedbuttons_companyInfo' disabled="true">
+                    Offices
+                    </a>
+                    <!-- mobilebutton_People -->
+                    <a data-role="button" name="mobilebutton_People" dsid="mobilebutton_People" class=' enabledButton CRUNCHBASE_officesList_mobilebutton_People'
+                    id="CRUNCHBASE_officesList_mobilebutton_People" data-corners="true" x-apple-data-detectors="false"
+                    data-theme="a" reRender='mobilegroupedbuttons_companyInfo'>
+                    People
+                    </a>
+                    <!-- mobilebutton_Products -->
+                    <a data-role="button" name="mobilebutton_Products" dsid="mobilebutton_Products"
+                    class=' enabledButton CRUNCHBASE_officesList_mobilebutton_Products' id="CRUNCHBASE_officesList_mobilebutton_Products"
+                    data-corners="true" x-apple-data-detectors="false" data-theme="a" reRender='mobilegroupedbuttons_companyInfo'>
+                    Products
+                    </a>
+                    <!-- mobilebutton_Competitors -->
+                    <a data-role="button" name="mobilebutton_Competitors" dsid="mobilebutton_Competitors"
+                    class=' enabledButton CRUNCHBASE_officesList_mobilebutton_Competitors' id="CRUNCHBASE_officesList_mobilebutton_Competitors"
+                    data-corners="true" x-apple-data-detectors="false" data-theme="a" reRender='mobilegroupedbuttons_companyInfo'>
+                    Competitors
+                    </a>
+                    <!-- mobilebutton_Milestones -->
+                    <a data-role="button" name="mobilebutton_Milestones" dsid="mobilebutton_Milestones"
+                    class=' enabledButton CRUNCHBASE_officesList_mobilebutton_Milestones' id="CRUNCHBASE_officesList_mobilebutton_Milestones"
+                    data-corners="true" x-apple-data-detectors="false" data-theme="a" reRender='mobilegroupedbuttons_companyInfo'>
+                    Milestones
+                    </a>
+                </div>
+                <!-- mobilelabel_officesText -->
+                <div name="mobilelabel_officesText" id="CRUNCHBASE_officesList_mobilelabel_officesText"
+                dsid="mobilelabel_officesText" data-role="appery_label" class=' CRUNCHBASE_officesList_mobilelabel_officesText '>
+                    Offices:
+                </div>
+                <!-- mobilelabel_noInformationOffices -->
+                <div name="mobilelabel_noInformationOffices" id="CRUNCHBASE_officesList_mobilelabel_noInformationOffices"
+                dsid="mobilelabel_noInformationOffices" data-role="appery_label" class=' CRUNCHBASE_officesList_mobilelabel_noInformationOffices '>
+                    No information
+                </div>
+                <!-- mobilelist_office -->
+                <ul data-role="listview" id="CRUNCHBASE_officesList_mobilelist_office" class=' CRUNCHBASE_officesList_mobilelist_office '
+                name="mobilelist_office" dsid="mobilelist_office" data-inset="true" data-theme="a"
+                data-divider-theme="b" data-count-theme="b" style="">
+                    <!-- mobilelistitem_offices -->
+                    <li onclick="" id="CRUNCHBASE_officesList_mobilelistitem_offices" name="mobilelistitem_offices"
+                    dsid="mobilelistitem_offices" class=' CRUNCHBASE_officesList_mobilelistitem_offices '>
+                        <div class="ui-li-static-container">
+                            <!-- mobilelabel_descriptionOffice -->
+                            <div name="mobilelabel_descriptionOffice" id="CRUNCHBASE_officesList_mobilelabel_descriptionOffice"
+                            dsid="mobilelabel_descriptionOffice" data-role="appery_label" class=' CRUNCHBASE_officesList_mobilelabel_descriptionOffice '>
+                            </div>
+                            <!-- mobilelabel_city -->
+                            <div name="mobilelabel_city" id="CRUNCHBASE_officesList_mobilelabel_city" dsid="mobilelabel_city"
+                            data-role="appery_label" class=' CRUNCHBASE_officesList_mobilelabel_city '>
+                            </div>
+                            <!-- mobilelabel_addressesText -->
+                            <div name="mobilelabel_addressesText" id="CRUNCHBASE_officesList_mobilelabel_addressesText"
+                            dsid="mobilelabel_addressesText" data-role="appery_label" class=' CRUNCHBASE_officesList_mobilelabel_addressesText '>
+                                Addresses:
+                            </div>
+                            <!-- mobilelabel_address1 -->
+                            <div name="mobilelabel_address1" id="CRUNCHBASE_officesList_mobilelabel_address1"
+                            dsid="mobilelabel_address1" data-role="appery_label" class=' CRUNCHBASE_officesList_mobilelabel_address1 '>
+                            </div>
+                            <!-- mobilelabel_address2 -->
+                            <div name="mobilelabel_address2" id="CRUNCHBASE_officesList_mobilelabel_address2"
+                            dsid="mobilelabel_address2" data-role="appery_label" class=' CRUNCHBASE_officesList_mobilelabel_address2 '>
+                            </div>
+                            <!-- mobilelabel_zipCode -->
+                            <div name="mobilelabel_zipCode" id="CRUNCHBASE_officesList_mobilelabel_zipCode"
+                            dsid="mobilelabel_zipCode" data-role="appery_label" class=' CRUNCHBASE_officesList_mobilelabel_zipCode '>
+                            </div>
+                            <!-- mobilelabel_countryCode -->
+                            <div name="mobilelabel_countryCode" id="CRUNCHBASE_officesList_mobilelabel_countryCode"
+                            dsid="mobilelabel_countryCode" data-role="appery_label" class=' CRUNCHBASE_officesList_mobilelabel_countryCode '>
+                            </div>
+                            <!-- mobilelabel_stateCode -->
+                            <div name="mobilelabel_stateCode" id="CRUNCHBASE_officesList_mobilelabel_stateCode"
+                            dsid="mobilelabel_stateCode" data-role="appery_label" class=' CRUNCHBASE_officesList_mobilelabel_stateCode '>
+                            </div>
+                            <!-- mobilelabel_latitude -->
+                            <div name="mobilelabel_latitude" id="CRUNCHBASE_officesList_mobilelabel_latitude"
+                            dsid="mobilelabel_latitude" data-role="appery_label" class=' CRUNCHBASE_officesList_mobilelabel_latitude '>
+                            </div>
+                            <!-- mobilelabel_longitude -->
+                            <div name="mobilelabel_longitude" id="CRUNCHBASE_officesList_mobilelabel_longitude"
+                            dsid="mobilelabel_longitude" data-role="appery_label" class=' CRUNCHBASE_officesList_mobilelabel_longitude '>
+                            </div>
+                            <span class="ui-icon ui-icon-arrow-r ui-icon-shadow extra">
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+
+</html>

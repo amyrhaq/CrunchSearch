@@ -1,0 +1,211 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.3.2/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_home */
+#CRUNCHBASE_peopleList_mobilebutton_home {
+
+}
+.ui-btn.CRUNCHBASE_peopleList_mobilebutton_home {
+
+}
+/* mobilebutton_back */
+#CRUNCHBASE_peopleList_mobilebutton_back {
+
+}
+.ui-btn.CRUNCHBASE_peopleList_mobilebutton_back {
+
+}
+/* mobilecontainer */
+.ui-content.CRUNCHBASE_peopleList_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilegrid_nameAndImage */
+.CRUNCHBASE_peopleList_mobilegrid_nameAndImage {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.CRUNCHBASE_peopleList_mobilegrid_nameAndImage > tr > td {
+	vertical-align: top;
+}
+.CRUNCHBASE_peopleList_mobilegrid_nameAndImage_row_0, .CRUNCHBASE_peopleList_mobilegrid_nameAndImage_row_0 > td {
+	height: 30px
+}
+/* mobilegridcell_name */
+.CRUNCHBASE_peopleList_mobilegridcell_name {
+	height:30px !important;
+	width:125px;
+	padding: 2px 2px 2px 2px;
+}
+.CRUNCHBASE_peopleList_mobilegridcell_name > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelink_companyName */
+.CRUNCHBASE_peopleList_mobilelink_companyName {
+	margin: 4px 4px 4px 0px;
+	display: block;
+	vertical-align: middle;
+	padding: 2px;
+	cursor: pointer;
+}
+.CRUNCHBASE_peopleList_mobilelink_companyName_link_wrapper > .CRUNCHBASE_peopleList_mobilelink_companyName,
+.CRUNCHBASE_peopleList_mobilelink_companyName_link_wrapper > .CRUNCHBASE_peopleList_mobilelink_companyName:hover,
+.CRUNCHBASE_peopleList_mobilelink_companyName_link_wrapper > .CRUNCHBASE_peopleList_mobilelink_companyName:active,
+.CRUNCHBASE_peopleList_mobilelink_companyName_link_wrapper > .CRUNCHBASE_peopleList_mobilelink_companyName:visited {
+	font-weight: normal; font-style: italic; text-align: right; font-size: 20px;
+}
+/* mobilegridcell_image */
+.CRUNCHBASE_peopleList_mobilegridcell_image {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.CRUNCHBASE_peopleList_mobilegridcell_image > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobileimage_company */
+.CRUNCHBASE_peopleList_mobileimage_company {
+	margin: 4px 0px 4px 5px;
+	width: 120px; height: 100px;
+	display: block;
+}
+/* mobilelabel_category */
+.CRUNCHBASE_peopleList_mobilelabel_category {
+	font-weight: normal;
+	margin: 4px 8px 4px 8px;
+	word-wrap: break-word;
+}
+/* mobilelabel_descriptionCompany */
+.CRUNCHBASE_peopleList_mobilelabel_descriptionCompany {
+	font-weight: normal;
+	margin: 4px 8px 8px 8px;
+	word-wrap: break-word;
+}
+/* mobilegroupedbuttons_companyInfo */
+.ui-controlgroup.CRUNCHBASE_peopleList_mobilegroupedbuttons_companyInfo {
+	margin: 10px 5px 15px 5px;
+}
+.ui-controlgroup.CRUNCHBASE_peopleList_mobilegroupedbuttons_companyInfo .ui-btn {
+	margin: 0 -1px 0 0;
+}
+/* mobilebutton_Overview */
+#CRUNCHBASE_peopleList_mobilebutton_Overview {
+
+}
+.ui-btn.CRUNCHBASE_peopleList_mobilebutton_Overview {
+
+}
+/* mobilebutton_Offices */
+#CRUNCHBASE_peopleList_mobilebutton_Offices {
+
+}
+.ui-btn.CRUNCHBASE_peopleList_mobilebutton_Offices {
+
+}
+/* mobilebutton_People */
+#CRUNCHBASE_peopleList_mobilebutton_People {
+
+}
+.ui-btn.CRUNCHBASE_peopleList_mobilebutton_People {
+
+}
+/* mobilebutton_Products */
+#CRUNCHBASE_peopleList_mobilebutton_Products {
+
+}
+.ui-btn.CRUNCHBASE_peopleList_mobilebutton_Products {
+
+}
+/* mobilebutton_Competitors */
+#CRUNCHBASE_peopleList_mobilebutton_Competitors {
+
+}
+.ui-btn.CRUNCHBASE_peopleList_mobilebutton_Competitors {
+
+}
+/* mobilebutton_Milestones */
+#CRUNCHBASE_peopleList_mobilebutton_Milestones {
+
+}
+.ui-btn.CRUNCHBASE_peopleList_mobilebutton_Milestones {
+
+}
+/* mobilelabel_people */
+.CRUNCHBASE_peopleList_mobilelabel_people {
+	font-weight: normal; text-align: center; font-size: 20px;
+	margin: 14px 0px 14px 0px;
+	word-wrap: break-word;
+}
+/* mobilelabel_noInformationPeople */
+.CRUNCHBASE_peopleList_mobilelabel_noInformationPeople {
+	font-weight: normal; font-style: italic; text-align: center;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilelist_people */
+.ui-page .CRUNCHBASE_peopleList_mobilelist_people {
+	margin: 4px 0px 0px 0px;
+}
+/* mobilelistitem_people */
+.ui-mobile-viewport ul[data-role="listview"] li.CRUNCHBASE_peopleList_mobilelistitem_people {
+	padding: 12px 0px 4px 0px;
+	padding-right: 30px; /* consider extra icon */
+}
+.ui-mobile-viewport ul[data-role="listview"] li.CRUNCHBASE_peopleList_mobilelistitem_people span.ui-icon.extra {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -9px;
+}
+.ui-mobile-viewport ul[data-role="listview"] li.CRUNCHBASE_peopleList_mobilelistitem_people[data-icon="false"] span.ui-icon.extra {
+	display: none;
+}
+.ui-mobile-viewport ul[data-role="listview"] li.CRUNCHBASE_peopleList_mobilelistitem_people[data-icon="false"] {
+	padding-right: 0px; /* consider nothing */
+}
+/* mobilelabel_title */
+.CRUNCHBASE_peopleList_mobilelabel_title {
+	font-weight: normal;
+	margin: 4px 0px 4px 12px;
+	word-wrap: break-word;
+}
+/* mobilelabel_isPast */
+.CRUNCHBASE_peopleList_mobilelabel_isPast {
+	font-weight: normal;
+	margin: 4px 0px 4px 20px;
+	display: none;
+	word-wrap: break-word;
+}
+/* mobilelabel_firstName */
+.CRUNCHBASE_peopleList_mobilelabel_firstName {
+	font-weight: normal;
+	margin: 14px 0px 4px 12px;
+	word-wrap: break-word;
+}
+/* mobilelabel_lastName */
+.CRUNCHBASE_peopleList_mobilelabel_lastName {
+	font-weight: normal;
+	margin: 4px 0px 12px 12px;
+	word-wrap: break-word;
+}
+/* mobilelabel_personPermalink */
+.CRUNCHBASE_peopleList_mobilelabel_personPermalink {
+	font-weight: normal;
+	margin: 4px 0px 4px 0px;
+	display: none;
+	word-wrap: break-word;
+}
+/* mobilelistitembutton_8 */
+.CRUNCHBASE_peopleList_mobilelistitembutton_8 {
+
+}
+/* mobilefooter */
+.CRUNCHBASE_peopleList_mobilefooter {
+	min-height:38px;
+}

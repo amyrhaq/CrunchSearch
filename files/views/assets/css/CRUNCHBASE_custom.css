@@ -1,0 +1,46 @@
+h1[dsid="header"]{
+    font-size: 15px !important;
+}
+
+.enabledButton:active {
+    background: #5B9AC9;
+    color: white;
+    -moz-box-shadow: inset 0px 0px 3px #387bbe /*{global-active-background-color}*/, 0px 0px 9px #387bbe /*{global-active-background-color}*/;
+    -webkit-box-shadow: inset 0px 0px 3px #387bbe /*{global-active-background-color}*/, 0px 0px 9px #387bbe /*{global-active-background-color}*/;
+    box-shadow: inset 0px 0px 3px #387bbe /*{global-active-background-color}*/, 0px 0px 9px #387bbe /*{global-active-background-color}*/;
+    text-shadow: 0 0 0;
+}
+
+.backButton:active {
+    background: #5B9AC9;
+    color: white;
+    -moz-box-shadow: inset 0px 0px 3px #387bbe /*{global-active-background-color}*/, 0px 0px 9px #387bbe /*{global-active-background-color}*/;
+    -webkit-box-shadow: inset 0px 0px 3px #387bbe /*{global-active-background-color}*/, 0px 0px 9px #387bbe /*{global-active-background-color}*/;
+    box-shadow: inset 0px 0px 3px #387bbe /*{global-active-background-color}*/, 0px 0px 9px #387bbe /*{global-active-background-color}*/;
+    text-shadow: 0 0 0;
+}
+
+.homeButton:active {
+    background: #5B9AC9;
+    color: white;
+    -moz-box-shadow: inset 0px 0px 3px #387bbe /*{global-active-background-color}*/, 0px 0px 9px #387bbe /*{global-active-background-color}*/;
+    -webkit-box-shadow: inset 0px 0px 3px #387bbe /*{global-active-background-color}*/, 0px 0px 9px #387bbe /*{global-active-background-color}*/;
+    box-shadow: inset 0px 0px 3px #387bbe /*{global-active-background-color}*/, 0px 0px 9px #387bbe /*{global-active-background-color}*/;
+    text-shadow: 0 0 0;
+}
+
+li:hover {
+    background: #444;
+    color: white;
+    text-shadow: 0 0 0;
+    cursor: pointer;
+}
+
+li:active {
+    background: #5B9AC9;
+    color: white;
+    -moz-box-shadow: inset 0px 0px 3px #387bbe /*{global-active-background-color}*/, 0px 0px 9px #387bbe /*{global-active-background-color}*/;
+    -webkit-box-shadow: inset 0px 0px 3px #387bbe /*{global-active-background-color}*/, 0px 0px 9px #387bbe /*{global-active-background-color}*/;
+    box-shadow: inset 0px 0px 3px #387bbe /*{global-active-background-color}*/, 0px 0px 9px #387bbe /*{global-active-background-color}*/;
+    text-shadow: 0 0 0;
+}

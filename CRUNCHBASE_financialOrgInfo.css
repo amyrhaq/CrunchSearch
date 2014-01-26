@@ -1,0 +1,487 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.3.2/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_back */
+#CRUNCHBASE_financialOrgInfo_mobilebutton_back {
+
+}
+.ui-btn.CRUNCHBASE_financialOrgInfo_mobilebutton_back {
+
+}
+/* mobilebutton_home */
+#CRUNCHBASE_financialOrgInfo_mobilebutton_home {
+
+}
+.ui-btn.CRUNCHBASE_financialOrgInfo_mobilebutton_home {
+
+}
+/* mobilecontainer */
+.ui-content.CRUNCHBASE_financialOrgInfo_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilegrid_NameAndImage */
+.CRUNCHBASE_financialOrgInfo_mobilegrid_NameAndImage {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.CRUNCHBASE_financialOrgInfo_mobilegrid_NameAndImage > tr > td {
+	vertical-align: top;
+}
+.CRUNCHBASE_financialOrgInfo_mobilegrid_NameAndImage_row_0, .CRUNCHBASE_financialOrgInfo_mobilegrid_NameAndImage_row_0 > td {
+	height: 30px
+}
+/* mobilegridcell_Name */
+.CRUNCHBASE_financialOrgInfo_mobilegridcell_Name {
+	height:30px !important;
+	width:125px;
+	padding: 2px 2px 2px 2px;
+}
+.CRUNCHBASE_financialOrgInfo_mobilegridcell_Name > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelink_name */
+.CRUNCHBASE_financialOrgInfo_mobilelink_name {
+	margin: 4px 4px 4px 0px;
+	display: block;
+	vertical-align: middle;
+	padding: 2px;
+	cursor: pointer;
+}
+.CRUNCHBASE_financialOrgInfo_mobilelink_name_link_wrapper > .CRUNCHBASE_financialOrgInfo_mobilelink_name,
+.CRUNCHBASE_financialOrgInfo_mobilelink_name_link_wrapper > .CRUNCHBASE_financialOrgInfo_mobilelink_name:hover,
+.CRUNCHBASE_financialOrgInfo_mobilelink_name_link_wrapper > .CRUNCHBASE_financialOrgInfo_mobilelink_name:active,
+.CRUNCHBASE_financialOrgInfo_mobilelink_name_link_wrapper > .CRUNCHBASE_financialOrgInfo_mobilelink_name:visited {
+	font-weight: normal; font-style: italic; text-align: right; font-size: 20px;
+}
+/* mobilegridcell_Imade */
+.CRUNCHBASE_financialOrgInfo_mobilegridcell_Imade {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.CRUNCHBASE_financialOrgInfo_mobilegridcell_Imade > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobileimage_financial */
+.CRUNCHBASE_financialOrgInfo_mobileimage_financial {
+	margin: 4px 0px 4px 8px;
+	width: 120px; height: 100px;
+	display: block;
+	display: none;
+}
+/* mobilelabel_descriptionFinancialOrg */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_descriptionFinancialOrg {
+	font-weight: normal;
+	margin: 4px 8px 4px 8px;
+	display: none;
+	word-wrap: break-word;
+}
+/* mobilecollapsibleset_organizationInfo */
+.CRUNCHBASE_financialOrgInfo_mobilecollapsibleset_organizationInfo {
+	margin: 8px 5px 8px 5px;
+	display: none;
+}
+/* mobilecollapsblock_overview */
+.CRUNCHBASE_financialOrgInfo_mobilecollapsblock_overview {
+
+}
+.CRUNCHBASE_financialOrgInfo_mobilecollapsblock_overview .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* mobilelabel_overviewText */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_overviewText {
+	font-weight: normal; text-align: center; font-size: 20px;
+	margin: 14px 0px 14px 0px;
+	word-wrap: break-word;
+}
+/* mobilelabel_noInformationOverview */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_noInformationOverview {
+	font-weight: normal; font-style: italic;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilelabel_foundedDayFO */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_foundedDayFO {
+	font-weight: normal;
+	margin: 4px 0px 4px 0px;
+	display: none;
+	word-wrap: break-word;
+}
+/* mobilelabel_foundedMonthFO */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_foundedMonthFO {
+	font-weight: normal;
+	margin: 4px 0px 4px 0px;
+	display: none;
+	word-wrap: break-word;
+}
+/* mobilelabel_foundedYearFO */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_foundedYearFO {
+	font-weight: normal;
+	margin: 10px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilelabel_numberOfEmployees */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_numberOfEmployees {
+	font-weight: normal;
+	margin: 10px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilelabel_overview */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_overview {
+	font-weight: normal; text-align: left; font-size: 16px;
+	margin: 16px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilelabel_contactsText */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_contactsText {
+	font-weight: normal; text-align: center; font-size: 20px;
+	margin: 14px 0px 14px 0px;
+	word-wrap: break-word;
+}
+/* mobilelabel_noInformationContacts */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_noInformationContacts {
+	font-weight: normal; font-style: italic;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilelabel_phoneNumberText */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_phoneNumberText {
+	font-weight: normal; text-align: left;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilelabel_phone */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_phone {
+	font-weight: normal; text-align: left;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilelabel_emailText */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_emailText {
+	font-weight: normal; text-align: left;
+	margin: 14px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilelabel_email */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_email {
+	font-weight: normal;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilelink_twitter */
+.CRUNCHBASE_financialOrgInfo_mobilelink_twitter {
+	margin: 14px 0px 4px 0px;
+	display: block;
+	vertical-align: middle;
+	padding: 2px;
+	cursor: pointer;
+}
+.CRUNCHBASE_financialOrgInfo_mobilelink_twitter_link_wrapper > .CRUNCHBASE_financialOrgInfo_mobilelink_twitter,
+.CRUNCHBASE_financialOrgInfo_mobilelink_twitter_link_wrapper > .CRUNCHBASE_financialOrgInfo_mobilelink_twitter:hover,
+.CRUNCHBASE_financialOrgInfo_mobilelink_twitter_link_wrapper > .CRUNCHBASE_financialOrgInfo_mobilelink_twitter:active,
+.CRUNCHBASE_financialOrgInfo_mobilelink_twitter_link_wrapper > .CRUNCHBASE_financialOrgInfo_mobilelink_twitter:visited {
+	font-weight: normal; font-style: italic; text-align: left;
+}
+/* mobilelink_blog */
+.CRUNCHBASE_financialOrgInfo_mobilelink_blog {
+	margin: 4px 0px 4px 0px;
+	display: block;
+	vertical-align: middle;
+	padding: 2px;
+	cursor: pointer;
+}
+.CRUNCHBASE_financialOrgInfo_mobilelink_blog_link_wrapper > .CRUNCHBASE_financialOrgInfo_mobilelink_blog,
+.CRUNCHBASE_financialOrgInfo_mobilelink_blog_link_wrapper > .CRUNCHBASE_financialOrgInfo_mobilelink_blog:hover,
+.CRUNCHBASE_financialOrgInfo_mobilelink_blog_link_wrapper > .CRUNCHBASE_financialOrgInfo_mobilelink_blog:active,
+.CRUNCHBASE_financialOrgInfo_mobilelink_blog_link_wrapper > .CRUNCHBASE_financialOrgInfo_mobilelink_blog:visited {
+	font-weight: normal; font-style: italic; text-align: left;
+}
+/* mobilecollapsblock_offices */
+.CRUNCHBASE_financialOrgInfo_mobilecollapsblock_offices {
+
+}
+.CRUNCHBASE_financialOrgInfo_mobilecollapsblock_offices .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* mobilelabel_noInformationOffices */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_noInformationOffices {
+	font-weight: normal; font-style: italic;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilelist_offices */
+.ui-page .CRUNCHBASE_financialOrgInfo_mobilelist_offices {
+	margin: 4px 0px 0px 0px;
+}
+/* mobilelistitem_offices */
+.ui-mobile-viewport ul[data-role="listview"] li.CRUNCHBASE_financialOrgInfo_mobilelistitem_offices {
+	padding: 0px 0px 4px 0px;
+	padding-right: 30px; /* consider extra icon */
+}
+.ui-mobile-viewport ul[data-role="listview"] li.CRUNCHBASE_financialOrgInfo_mobilelistitem_offices span.ui-icon.extra {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -9px;
+}
+.ui-mobile-viewport ul[data-role="listview"] li.CRUNCHBASE_financialOrgInfo_mobilelistitem_offices[data-icon="false"] span.ui-icon.extra {
+	display: none;
+}
+.ui-mobile-viewport ul[data-role="listview"] li.CRUNCHBASE_financialOrgInfo_mobilelistitem_offices[data-icon="false"] {
+	padding-right: 0px; /* consider nothing */
+}
+/* mobilelistitembutton_44 */
+.CRUNCHBASE_financialOrgInfo_mobilelistitembutton_44 {
+
+}
+/* mobilelabel_description */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_description {
+	font-weight: normal; font-size: 14px;
+	margin: 12px 0px 12px 12px;
+	word-wrap: break-word;
+}
+/* mobilelabel_city */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_city {
+	font-weight: normal; font-size: 14px;
+	margin: 4px 0px 4px 12px;
+	word-wrap: break-word;
+}
+/* mobilelabel_addressesText */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_addressesText {
+	font-weight: normal; font-size: 14px;
+	margin: 12px 0px 4px 12px;
+	word-wrap: break-word;
+}
+/* mobilelabel_address1 */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_address1 {
+	font-weight: normal; font-size: 14px;
+	margin: 4px 0px 4px 12px;
+	word-wrap: break-word;
+}
+/* mobilelabel_address2 */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_address2 {
+	font-weight: normal; font-size: 14px;
+	margin: 4px 0px 4px 12px;
+	word-wrap: break-word;
+}
+/* mobilelabel_zipCode */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_zipCode {
+	font-weight: normal; font-size: 14px;
+	margin: 14px 0px 4px 12px;
+	word-wrap: break-word;
+}
+/* mobilelabel_countryCode */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_countryCode {
+	font-weight: normal;
+	margin: 4px 0px 4px 12px;
+	word-wrap: break-word;
+}
+/* mobilelabel_stateCode */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_stateCode {
+	font-weight: normal;
+	margin: 4px 0px 12px 12px;
+	word-wrap: break-word;
+}
+/* mobilelabel_latitude */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_latitude {
+	font-weight: normal;
+	margin: 4px 0px 4px 0px;
+	display: none;
+	word-wrap: break-word;
+}
+/* mobilelabel_longitude */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_longitude {
+	font-weight: normal;
+	margin: 4px 0px 4px 0px;
+	display: none;
+	word-wrap: break-word;
+}
+/* mobilecollapsblock_people */
+.CRUNCHBASE_financialOrgInfo_mobilecollapsblock_people {
+
+}
+.CRUNCHBASE_financialOrgInfo_mobilecollapsblock_people .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* mobilelabel_noInformationPeople */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_noInformationPeople {
+	font-weight: normal; font-style: italic;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilelist_people */
+.ui-page .CRUNCHBASE_financialOrgInfo_mobilelist_people {
+	margin: 4px 0px 0px 0px;
+}
+/* mobilelistitem_person */
+.ui-mobile-viewport ul[data-role="listview"] li.CRUNCHBASE_financialOrgInfo_mobilelistitem_person {
+	padding: 0px 0px 4px 0px;
+	padding-right: 30px; /* consider extra icon */
+}
+.ui-mobile-viewport ul[data-role="listview"] li.CRUNCHBASE_financialOrgInfo_mobilelistitem_person span.ui-icon.extra {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -9px;
+}
+.ui-mobile-viewport ul[data-role="listview"] li.CRUNCHBASE_financialOrgInfo_mobilelistitem_person[data-icon="false"] span.ui-icon.extra {
+	display: none;
+}
+.ui-mobile-viewport ul[data-role="listview"] li.CRUNCHBASE_financialOrgInfo_mobilelistitem_person[data-icon="false"] {
+	padding-right: 0px; /* consider nothing */
+}
+/* mobilelistitembutton_70 */
+.CRUNCHBASE_financialOrgInfo_mobilelistitembutton_70 {
+
+}
+/* mobilelabel_title */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_title {
+	font-weight: normal;
+	margin: 12px 0px 4px 12px;
+	word-wrap: break-word;
+}
+/* mobilelabel_isPast */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_isPast {
+	font-weight: normal; font-size: 14px;
+	margin: 4px 0px 4px 20px;
+	display: none;
+	word-wrap: break-word;
+}
+/* mobilelabel_firstName */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_firstName {
+	font-weight: normal; text-align: left;
+	margin: 14px 0px 4px 12px;
+	word-wrap: break-word;
+}
+/* mobilelabel_lastName */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_lastName {
+	font-weight: normal;
+	margin: 4px 0px 4px 12px;
+	word-wrap: break-word;
+}
+/* mobilelabel_personPermalink */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_personPermalink {
+	font-weight: normal;
+	margin: 4px 0px 4px 0px;
+	display: none;
+	word-wrap: break-word;
+}
+/* mobilecollapsblock_investments */
+.CRUNCHBASE_financialOrgInfo_mobilecollapsblock_investments {
+
+}
+.CRUNCHBASE_financialOrgInfo_mobilecollapsblock_investments .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* mobilelabel_noInformationInvestments */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_noInformationInvestments {
+	font-weight: normal; font-style: italic;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilelist_investments */
+.ui-page .CRUNCHBASE_financialOrgInfo_mobilelist_investments {
+	margin: 4px 0px 0px 0px;
+}
+/* mobilelistitem_funding_round */
+.ui-mobile-viewport ul[data-role="listview"] li.CRUNCHBASE_financialOrgInfo_mobilelistitem_funding_round {
+	padding: 0px 0px 4px 0px;
+	padding-right: 30px; /* consider extra icon */
+}
+.ui-mobile-viewport ul[data-role="listview"] li.CRUNCHBASE_financialOrgInfo_mobilelistitem_funding_round span.ui-icon.extra {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -9px;
+}
+.ui-mobile-viewport ul[data-role="listview"] li.CRUNCHBASE_financialOrgInfo_mobilelistitem_funding_round[data-icon="false"] span.ui-icon.extra {
+	display: none;
+}
+.ui-mobile-viewport ul[data-role="listview"] li.CRUNCHBASE_financialOrgInfo_mobilelistitem_funding_round[data-icon="false"] {
+	padding-right: 0px; /* consider nothing */
+}
+/* mobilelistitembutton_73 */
+.CRUNCHBASE_financialOrgInfo_mobilelistitembutton_73 {
+
+}
+/* mobilelabel_company */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_company {
+	font-weight: normal; font-style: italic;
+	margin: 12px 0px 4px 12px;
+	word-wrap: break-word;
+}
+/* mobilelabel_sourceDescription */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_sourceDescription {
+	font-weight: normal;
+	margin: 12px 0px 4px 12px;
+	word-wrap: break-word;
+}
+/* mobilelabel_roundCode */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_roundCode {
+	font-weight: normal;
+	margin: 12px 0px 4px 12px;
+	word-wrap: break-word;
+}
+/* mobilelabel_raisedAmount */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_raisedAmount {
+	font-weight: normal;
+	margin: 4px 0px 4px 12px;
+	word-wrap: break-word;
+}
+/* mobilelabel_raisedCurrencyCode */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_raisedCurrencyCode {
+	font-weight: normal;
+	margin: 4px 0px 4px 12px;
+	word-wrap: break-word;
+}
+/* mobilelabel_fundedDay */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_fundedDay {
+	font-weight: normal;
+	margin: 4px 0px 4px 0px;
+	display: none;
+	word-wrap: break-word;
+}
+/* mobilelabel_fundedMonth */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_fundedMonth {
+	font-weight: normal;
+	margin: 4px 0px 4px 0px;
+	display: none;
+	word-wrap: break-word;
+}
+/* mobilelabel_fundedYear */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_fundedYear {
+	font-weight: normal;
+	margin: 12px 0px 10px 12px;
+	word-wrap: break-word;
+}
+/* mobilelabel_companyPermalink */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_companyPermalink {
+	font-weight: normal;
+	margin: 4px 0px 4px 0px;
+	display: none;
+	word-wrap: break-word;
+}
+/* mobilelabel_loadingText */
+.CRUNCHBASE_financialOrgInfo_mobilelabel_loadingText {
+	font-weight: normal; text-align: center;
+	margin: 120px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilebutton_retry */
+#CRUNCHBASE_financialOrgInfo_mobilebutton_retry {
+
+}
+.ui-btn.CRUNCHBASE_financialOrgInfo_mobilebutton_retry {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilefooter */
+.CRUNCHBASE_financialOrgInfo_mobilefooter {
+	min-height:38px;
+}

@@ -1,0 +1,30 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.3.2/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.CRUNCHBASE_showMap_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* googlemap_officeLocation */
+.CRUNCHBASE_showMap_googlemap_officeLocation {
+	width: 320px; height: 350px;
+	margin: 0px 0px 0px 0px;
+}
+/* marker_2 */
+.CRUNCHBASE_showMap_marker_2 {
+	text-shadow:none;
+	color:black;
+	font-family:Arial;
+}
+/* mobilelabel_noCoordinates */
+.CRUNCHBASE_showMap_mobilelabel_noCoordinates {
+	font-weight: normal; font-style: italic; color: #e35d5d; text-align: center;
+	margin: 150px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilefooter */
+.CRUNCHBASE_showMap_mobilefooter {
+	min-height:38px;
+}
